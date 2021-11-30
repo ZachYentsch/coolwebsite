@@ -1,0 +1,11 @@
+:root{
+   --primary: rgb(17, 38, 616);
+}
+
+header{
+    background-color: var(--primary);
+    text-align: center;
+    height: 15vh;
+    padding-top: 1.5em;
+    justify-content: end;
+}
