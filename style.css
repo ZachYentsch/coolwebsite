@@ -2,6 +2,9 @@
    --primary: rgb(17, 38, 616);
 }
 
+body{
+    margin: 0px;
+}
 header{
     background-color: var(--primary);
     text-align: center;
@@ -9,3 +12,43 @@ header{
     padding-top: 1.5em;
     justify-content: end;
 }
+
+.left-column{
+    margin: 3em 0 0 .5em;
+    width: 15%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.center-column{
+    font-size: 16px;
+    text-align: center;
+    width: 50%;
+}
+
+.right-column{
+    width: 30%;
+    text-align: center;
+    margin: 6em 0 2em 0;
+    font-size: 16px;
+}
+
+
+img{
+    width: 7em;
+    height: 7em;
+position: relative;
+}
+
+footer{
+    background-color: var(--primary);
+    height: 30vh;
+}
+
+/*utility class*/
+/*start Region*/
+.d-flex{
+    display: flex;
+}
+
+
